@@ -1,6 +1,6 @@
 export default function DataTable({ head, data }) {
 	return (
-		<table className='min-w-full bg-white'>
+		<table className='min-w-full bg-white my-8'>
 			<thead>
 				<tr>
 					{head.map((headitem, index) => (

@@ -17,7 +17,7 @@ export default async function personPage({ params }) {
 	console.log(persons);
 	return (
 		<>
-			<h1>
+			<h1 className='text-4xl mb-8'>
 				{persons.firstName} {persons.lastName}
 			</h1>
 			<div className='flex flex-wrap'>
